@@ -1,0 +1,16 @@
+.blog-content{
+    padding: 50px;
+}
+
+.blog-content img{
+    margin-bottom: 30px;
+}
+
+.blog-content .lead{
+    text-align:left;
+    line-height: 2em;
+}
+
+.blog-content .content_setting{
+    padding:20px;
+}

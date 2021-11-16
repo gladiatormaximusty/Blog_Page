@@ -1,0 +1,33 @@
+.comment_section{
+
+    border-top: 1px solid rgba(0,0,0,.09);
+    padding: 50px 0;
+}
+
+.comment_section img{
+    border-radius: 100%;
+    width: 100px;
+    margin: 20px;
+}
+
+.comment_section .uncomplete_comment .upper{
+    margin-bottom: 50px;
+}
+.comment_section .uncomplete_comment .btn{
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #ccc;
+    padding: 7px 28px;
+    border-radius: 20px;
+}
+.comment_section .uncomplete_comment .btn:hover{
+    opacity: 0.8;
+}
+
+.comment_section .completed_comment .card{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+

@@ -1,0 +1,52 @@
+main{
+    background-color:	#FFF4C1;
+    padding: 50px;
+}
+
+main .container .breadcrumb{
+    background-color: transparent;
+}
+
+main .container .breadcrumb a{
+    color: rgba(0, 0, 0, 0.849);
+    font-weight:800;
+}
+main .container h2{
+    font-weight: bold;
+}
+main .container img{
+    border-radius: 100%;
+    width: 50px;
+   
+}
+main .container .lead{
+    font-size: 12px;
+    font-weight: bold;
+}
+main .container .profile_setting .authur_setting{
+    margin-top: 5px;
+}
+main .container .profile_setting{
+    margin-top: 30px;
+}
+/* ( 側邊欄位：右邊 )廣告、書籤或其他區塊 */
+/* main .othersection{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .2);
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+} */
+
+
+/* main .sponsors, main .article_tag{
+    font-weight: bold;
+    color: rgba(0, 0, 0, .4);
+} */
+
+
+
+/* 文章書籤 */
+/* main .article_tag button{
+    margin: 5px;
+    font-size: 9px;
+} */

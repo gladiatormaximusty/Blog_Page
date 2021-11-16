@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- NaviBar_Blog CSS -->
+    <link rel="stylesheet" href="./css/style_NaviBar_BlogIT.css">
+    <!-- Main-Blog-Upper CSS -->
+    <link rel="stylesheet" href="./css/style_Upper_ReadingPage.css">
+    <!-- Main-Blog-paragraph -->
+    <link rel="stylesheet" href="./css/style_paragraph_ReadingPage.css">
+    <!-- Comment CSS -->
+    <link rel="stylesheet" href="./css/style_Comment_ReadingPage.css">
+    <!-- Footer CSS -->
+    <link rel="stylesheet" href="./css/style_footer.css">
+    <!-- Public CSS -->
+    <link rel="stylesheet" href="./css/style_public.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadingPage</title>
+</head>
+
+<body>
+    <!-- Navi-Bar 區域-->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#"> <img src="./pictures/logo.png" width="50" height="50" alt="">IT -
+                    技術分享</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarList"
+                    aria-controls="navBarList" aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navBarList">
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item"><a class="nav-link" href="#">首頁</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="IT_skills" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">技術分享</a>
+                            <div class="dropdown-menu" aria-labelledby="IT_skills">
+                                <a class="dropdown-item" href="#">JavaScript</a>
+                                <a class="dropdown-item" href="#">NodeJS</a>
+                                <a class="dropdown-item" href="#">Vue.JS</a>
+                                <a class="dropdown-item" href="#">Power BI</a>
+                                <a class="dropdown-item" href="#">SQL</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="life_sharing" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">生活導覽</a>
+                            <div class="dropdown-menu" aria-labelledby="life_sharing">
+                                <a class="dropdown-item" href="#">健身周記</a>
+                                <a class="dropdown-item" href="#">美食天地</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="about_us" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">關於我們</a>
+                            <div class="dropdown-menu" aria-labelledby="about_us">
+                                <a class="dropdown-item" href="#">網站宗旨</a>
+                                <a class="dropdown-item" href="#">聯絡我們</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="service_admin" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">會員服務</a>
+                            <div class="dropdown-menu" aria-labelledby="service_admin">
+                                <a class="dropdown-item" href="#">登入</a>
+                                <a class="dropdown-item disabled" href="#">會員註冊</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- Main-Blog-Upper 區域 -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <nav aria-label="breadcrumb ">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">首頁</a></li>
+                            <li class="breadcrumb-item"><a href="#">技術分享</a></li>
+                            <li class="breadcrumb-item"><a href="#">JavaScript</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">請求資料好多種，到底要如何與後台請求資料？</li>
+                        </ol>
+                    </nav>
+                    <h2>請求資料好多種，到底要如何與後台請求資料？</h2>
+                    <div class="row profile_setting">
+                        <div class="col-md-4 text-right">
+                            <img src="./pictures/myphoto.jpg" alt="">
+                        </div>
+                        <div class="col-md-2 text-left authur_setting">
+                            <p><span class="lead" style="margin-left:0;">BY Edward
+                                </span></p>
+                        </div>
+                        <div class="col-md-6 text-left authur_setting">
+                            <span class="lead">文章更新時間：</span><span class=" lead">2021/01/01</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Main-Blog-Pragraph -->
+    <div class="blog-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <img class="img-responsive" width="100%" src="http://via.placeholder.com/500x300" alt="">
+
+                    <!-- <div class="row">
+                        <div class="col-md-4 text-center">
+                            <button type="button" class="btn btn-primary btn-lg">Facebook</button>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <button type="button" class="btn btn-primary btn-lg">Instagram</button>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <button type="button" class="btn btn-primary btn-lg">Twitter</button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center content_setting">
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolor quasi autem ut aperiam
+                        blanditiis, fuga rem! Reprehenderit repudiandae cumque praesentium ad rerum similique aut, quas
+                        minus porro. Ut, pariatur?
+                        Praesentium doloremque ratione odio officia placeat deserunt amet facere nulla, cumque veritatis
+                        sunt ducimus? Commodi, deleniti illum neque doloribus magnam deserunt similique nostrum nemo
+                        sapiente dolore natus repellat ducimus rerum.
+                        Corrupti dicta laborum consectetur, eaque repellat aliquam expedita ratione perferendis non
+                        alias vitae enim tempore neque nobis amet dolore architecto dolor culpa sed laboriosam
+                        reiciendis accusantium ipsum pariatur. Provident, eveniet?
+                        Dolor magnam quo error sed voluptates. Repellat autem dolor accusamus ipsum minima vitae quidem
+                        consequatur aut excepturi animi ea, modi laborum voluptatem, facilis nostrum officiis
+                        praesentium esse in eius non!
+                        A enim temporibus harum quisquam distinctio eligendi minus dolor, quod, atque deserunt
+                        recusandae, nulla optio debitis qui fugiat officia quos! Iste harum quod sequi, nihil aperiam
+                        facilis doloremque. Labore, repellat!
+                        Sed libero minima molestiae odio illo laudantium veniam unde? Nostrum consectetur eius quasi
+                        iste minus aliquid reiciendis dolorem! Consequuntur amet vero rem corrupti nisi dicta libero ex
+                        beatae iusto earum.
+                        Recusandae, molestias eum et maxime atque nam laboriosam tempore sit sunt ducimus tempora? Rem
+                        eligendi officia esse fugiat maiores aperiam tenetur architecto blanditiis, dignissimos, nihil
+                        reprehenderit? Eveniet eos velit doloribus!
+                        Quibusdam quis cumque tempora quos quod quia consequatur unde similique earum, ducimus
+                        doloremque nostrum, incidunt aperiam dolorum, quaerat iure? Quae, asperiores. Sequi nostrum
+                        dolorem iure reprehenderit perferendis esse nihil consectetur?
+                        Numquam error, neque dolorum eaque deserunt accusamus. Quod, velit ea. Eum id vero sint nisi,
+                        quidem quo fugit nulla cum, beatae, corporis voluptates incidunt perspiciatis suscipit rerum
+                        officiis eius libero.
+                        Quaerat aperiam veritatis, minima magnam blanditiis dolorum dignissimos nesciunt delectus
+                        consequuntur alias assumenda iste! Fugit natus incidunt aspernatur quae rem quibusdam nisi,
+                        doloribus, accusantium quas consequatur molestias quisquam possimus. Quisquam.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Comment-Section -->
+    <div class="comment_section">
+        <div class="container">
+            <div class="row">
+                <!-- 未完成留言區 -->
+                <div class="col-md-8 offset-md-2 text-center uncomplete_comment">
+                    <div class="row upper">
+                        <div class="col-md-6 text-left">
+                            <h3>Comments</h3>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-4 text-center lower">
+                            <img src="./pictures/inner.png" alt="">
+                        </div>
+                        <div class="col-md-8 text-left ">
+                            <form>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="請輸入暱稱">
+                                <br />
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="請輸入內容"></textarea>
+                            </form>
+                            <a class="btn btn-primary btn-lg" href="#" role="button">提交</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 完成留言區 -->
+                <div class="col-md-6 offset-md-3 text-center completed_comment">
+                    <div class="card">
+                        <div class="card-header">
+                            Edward
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>新板的部落格耶!省下很多開銷，又能符合手機、平板及所有移動設備！
+                                </p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            Daisy
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>對阿!大寶寶一定要給我用！我要蹭寶寶的，唧唧~~~~~~~~~~~~~~~~
+                                </p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer 區域 -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <h4>友情連結</h4>
+                    <ul>
+                        <li><a href="https://www.daisylove3c.com/daisypodcast" target="_blank">DaisyLove3C</a></li>
+                        <li><a href="https://blog.alantsai.net/" target="_blank">Alan Tsai 學習筆記</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-left">
+                    <h4>連結</h4>
+                    <ul>
+                        <li><a href="#">技術分享</a></li>
+                        <li><a href="#">生活導覽</a> </li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">關於我們</a> </li>
+                        <li><a href="#">會員服務</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-left">
+                    <h4>聯絡我們</h4>
+                    <p>
+                        Phone：+886 989332098 <br>
+                        E-mail：<a href="Edward:gladiatormaximusty99@gmail.com">gladiatormaximusty99@gmail.com</a><br>
+                        更多的資訊，歡迎與我們聯繫 ~~
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
